@@ -1,0 +1,12 @@
+model: single
+words_dim: 300
+embed_dim: 300
+contextual_dim: 350
+sent_hidden_dim: 350
+pre_pooling_dim: 50
+dropout: 0.0
+view_dim: 350
+bilinear_size: 128
+pre_classifier_dim: 350
+n_views: 3
+encoder: 'bert_lstm'
